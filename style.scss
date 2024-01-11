@@ -1,6 +1,6 @@
 $primary: #5265E1;
 $secondary: #FA5959;
-$gray: #eeeeee;
+$gray: #e6e5e5;
 
 $theme-colors: (
   "primary": $primary,
@@ -8,3 +8,16 @@ $theme-colors: (
   "gray": $gray
 );
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.background-form {
+  background-color: $primary; 
+  border-radius: 50% 0 0 50%;
+  top: 65%;
+  left: 100%;
+  right: 0%;
+  transform: translate(-100%, -50%);
+  width: 70%;
+  height: 70%;
+  z-index: -1;
+ }
+
