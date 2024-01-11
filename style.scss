@@ -1,8 +1,10 @@
 $primary: #5265E1;
-$danger: #FA5959;
+$secondary: #FA5959;
+$gray: #eeeeee;
 
 $theme-colors: (
   "primary": $primary,
-  "danger": $danger
+  "secondary": $secondary,
+  "gray": $gray
 );
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
