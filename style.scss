@@ -7,6 +7,12 @@ $theme-colors: (
   "secondary": $secondary,
   "gray": $gray
 );
+
+
+
+//Feature//
+$nav-link-hover-color: $secondary;
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 .background-form {
@@ -20,4 +26,26 @@ $theme-colors: (
   height: 70%;
   z-index: -1;
  }
+
+ .nav-link:hover {
+  color:#FA5959;
+ }
+
+ .btn-secondary:hover {
+  background-color: white;
+  border: $secondary solid 1px;
+  color: $secondary;
+ }
+
+ .features {
+  max-width: 700px;
+ }
+
+ .options {
+  border-bottom: $gray solid 2px;
+ }
+ .option-active {
+  border-bottom: $secondary solid 2px;
+ }
+
 

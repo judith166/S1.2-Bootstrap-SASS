@@ -3593,7 +3593,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
-  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-hover-color: #FA5959;
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
   flex-wrap: wrap;
@@ -11516,4 +11516,26 @@ textarea.form-control-lg {
   width: 70%;
   height: 70%;
   z-index: -1;
+}
+
+.nav-link:hover {
+  color: #FA5959;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  border: #FA5959 solid 1px;
+  color: #FA5959;
+}
+
+.features {
+  max-width: 700px;
+}
+
+.options {
+  border-bottom: #e6e5e5 solid 2px;
+}
+
+.option-active {
+  border-bottom: #FA5959 solid 2px;
 }/*# sourceMappingURL=style.css.map */
