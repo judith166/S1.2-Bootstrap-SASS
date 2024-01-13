@@ -31,6 +31,14 @@ $nav-link-hover-color: $secondary;
   color:#FA5959;
  }
 
+ .navbar-toggler {
+  border: none;
+ }
+
+ .btn-menu:hover {
+  color: #333!important;
+ }
+
  .btn-secondary:hover {
   background-color: white;
   border: $secondary solid 1px;
@@ -43,9 +51,7 @@ $nav-link-hover-color: $secondary;
 
  .options {
   border-bottom: $gray solid 2px;
- }
- .option-active {
-  border-bottom: $secondary solid 2px;
+  color: #333;
  }
 
-
+ //Tabs//

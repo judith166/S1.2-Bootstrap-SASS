@@ -11522,6 +11522,14 @@ textarea.form-control-lg {
   color: #FA5959;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.btn-menu:hover {
+  color: #333 !important;
+}
+
 .btn-secondary:hover {
   background-color: white;
   border: #FA5959 solid 1px;
@@ -11534,8 +11542,5 @@ textarea.form-control-lg {
 
 .options {
   border-bottom: #e6e5e5 solid 2px;
-}
-
-.option-active {
-  border-bottom: #FA5959 solid 2px;
+  color: #333;
 }/*# sourceMappingURL=style.css.map */
