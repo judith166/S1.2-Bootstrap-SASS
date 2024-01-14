@@ -11,13 +11,15 @@ $theme-colors: (
 
 
 //Feature//
-$nav-link-hover-color: $secondary;
+
+//FAQs//
+$accordion-icon-color: $primary;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-.background-form {
+.background-form1 {
   background-color: $primary; 
-  border-radius: 50% 0 0 50%;
+  border-radius: 500% 0 0 500%;
   top: 65%;
   left: 100%;
   right: 0%;
@@ -27,7 +29,7 @@ $nav-link-hover-color: $secondary;
   z-index: -1;
  }
 
- .nav-link:hover {
+ .nav-link:active {
   color:#FA5959;
  }
 
@@ -45,13 +47,37 @@ $nav-link-hover-color: $secondary;
   color: $secondary;
  }
 
- .features {
-  max-width: 700px;
+ //Features//
+ .background-form2 {
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 90%;
+  background-color: $primary; 
+  border-radius: 0 500px 500px 0;
+  z-index: -1;
+}
+
+ //Cards//
+
+ .accordion, .feature , .formulario {
+  width: 700px;
  }
 
- .options {
-  border-bottom: $gray solid 2px;
-  color: #333;
+ .contenedor-extension {
+  height: 400px;
  }
 
- //Tabs//
+ .linea {
+  border-top: 5px dotted $gray;
+  height: 2px;
+}
+
+.card-img-top {
+  height: 100px;
+  width: 100px;
+}
+
+//FAQs//
+

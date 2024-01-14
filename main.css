@@ -3593,7 +3593,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
-  --bs-nav-link-hover-color: #FA5959;
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
   flex-wrap: wrap;
@@ -4349,7 +4349,7 @@ textarea.form-control-lg {
   --bs-accordion-btn-padding-y: 1rem;
   --bs-accordion-btn-color: var(--bs-body-color);
   --bs-accordion-btn-bg: var(--bs-accordion-bg);
-  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235265E1'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --bs-accordion-btn-icon-width: 1.25rem;
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
@@ -11506,9 +11506,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.background-form {
+.background-form1 {
   background-color: #5265E1;
-  border-radius: 50% 0 0 50%;
+  border-radius: 500% 0 0 500%;
   top: 65%;
   left: 100%;
   right: 0%;
@@ -11518,7 +11518,7 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
-.nav-link:hover {
+.nav-link:active {
   color: #FA5959;
 }
 
@@ -11536,11 +11536,31 @@ textarea.form-control-lg {
   color: #FA5959;
 }
 
-.features {
-  max-width: 700px;
+.background-form2 {
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 90%;
+  background-color: #5265E1;
+  border-radius: 0 500px 500px 0;
+  z-index: -1;
 }
 
-.options {
-  border-bottom: #e6e5e5 solid 2px;
-  color: #333;
-}/*# sourceMappingURL=style.css.map */
+.accordion, .feature, .formulario {
+  width: 700px;
+}
+
+.contenedor-extension {
+  height: 400px;
+}
+
+.linea {
+  border-top: 5px dotted #e6e5e5;
+  height: 2px;
+}
+
+.card-img-top {
+  height: 100px;
+  width: 100px;
+}/*# sourceMappingURL=main.css.map */
