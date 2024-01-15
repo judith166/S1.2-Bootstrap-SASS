@@ -55,16 +55,15 @@ $accordion-icon-color: $primary;
  //Features//
 
  .nav-tabs{
-  border: none;
-  border-bottom: 2px solid $gray;
+  border-bottom: 3px solid $gray;
  }
 
-.nav-link {
+.nav-feature , .nav-feature.active{
   border: none;
+  border-bottom: 3px solid $secondary;
 }
 
-
- .background-form2 {
+.background-form2 {
   top: 70%;
   left: 30%;
   transform: translate(-50%, -50%);
@@ -73,6 +72,18 @@ $accordion-icon-color: $primary;
   background-color: $primary; 
   border-radius: 0 500px 500px 0;
   z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+  .nav-feature {
+      width: 100%;
+  }
+  
+  .nav-tabs .nav-link{
+      border-bottom: 3px solid $gray; 
+  }
 }
 
  //Cards//

@@ -11537,12 +11537,12 @@ textarea.form-control-lg {
 }
 
 .nav-tabs {
-  border: none;
-  border-bottom: 2px solid #e6e5e5;
+  border-bottom: 3px solid #e6e5e5;
 }
 
-.nav-link {
+.nav-feature, .nav-feature.active {
   border: none;
+  border-bottom: 3px solid #FA5959;
 }
 
 .background-form2 {
@@ -11556,6 +11556,14 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
+@media screen and (max-width: 768px) {
+  .nav-feature {
+    width: 100%;
+  }
+  .nav-tabs .nav-link {
+    border-bottom: 3px solid #e6e5e5;
+  }
+}
 .contenedor-extension {
   height: 400px;
 }
