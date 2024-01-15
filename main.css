@@ -3589,11 +3589,11 @@ textarea.form-control-lg {
 }
 
 .nav {
-  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-x: 2rem;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: var(--bs-link-color);
-  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-color: #333;
+  --bs-nav-link-hover-color: #FA5959;
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
   flex-wrap: wrap;
@@ -3636,9 +3636,9 @@ textarea.form-control-lg {
   --bs-nav-tabs-border-color: var(--bs-border-color);
   --bs-nav-tabs-border-radius: var(--bs-border-radius);
   --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
-  --bs-nav-tabs-link-active-color: var(--bs-emphasis-color);
+  --bs-nav-tabs-link-active-color: #FA5959;
   --bs-nav-tabs-link-active-bg: var(--bs-body-bg);
-  --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
+  --bs-nav-tabs-link-active-border-color: #FA5959;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
 .nav-tabs .nav-link {
@@ -11536,6 +11536,15 @@ textarea.form-control-lg {
   color: #FA5959;
 }
 
+.nav-tabs {
+  border: none;
+  border-bottom: 2px solid #e6e5e5;
+}
+
+.nav-link {
+  border: none;
+}
+
 .background-form2 {
   top: 70%;
   left: 30%;
@@ -11547,17 +11556,12 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
-.accordion, .feature, .formulario {
-  width: 700px;
-}
-
 .contenedor-extension {
   height: 400px;
 }
 
 .linea {
   border-top: 5px dotted #e6e5e5;
-  height: 2px;
 }
 
 .card-img-top {

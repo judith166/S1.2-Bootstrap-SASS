@@ -11,6 +11,11 @@ $theme-colors: (
 
 
 //Feature//
+$nav-link-color: #333;
+$nav-link-padding-x: 2rem;
+$nav-link-hover-color: $secondary;
+$nav-tabs-link-active-color: $secondary;
+$nav-tabs-link-active-border-color: $secondary;
 
 //FAQs//
 $accordion-icon-color: $primary;
@@ -48,6 +53,17 @@ $accordion-icon-color: $primary;
  }
 
  //Features//
+
+ .nav-tabs{
+  border: none;
+  border-bottom: 2px solid $gray;
+ }
+
+.nav-link {
+  border: none;
+}
+
+
  .background-form2 {
   top: 70%;
   left: 30%;
@@ -61,17 +77,12 @@ $accordion-icon-color: $primary;
 
  //Cards//
 
- .accordion, .feature , .formulario {
-  width: 700px;
- }
-
  .contenedor-extension {
   height: 400px;
  }
 
  .linea {
   border-top: 5px dotted $gray;
-  height: 2px;
 }
 
 .card-img-top {
@@ -80,4 +91,8 @@ $accordion-icon-color: $primary;
 }
 
 //FAQs//
+
+
+//FOOTER//
+
 
