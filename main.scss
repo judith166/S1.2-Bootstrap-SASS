@@ -21,17 +21,40 @@ $nav-tabs-link-active-border-color: $secondary;
 
 //FAQs//
 $accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+$accordion-button-active-bg: #fff;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 //General//
 
 .separador {
-  height: 50px;
+  height: 100px;
   width: 100%;
 }
 
-.background-form1 {
+
+
+ .nav-link:active {
+  color:#FA5959;
+ }
+
+ .navbar-toggler {
+  border: none;
+ }
+
+ .btn-menu:hover {
+  color: $secondary!important;
+ }
+
+ .btn-secondary:hover {
+  background-color: white;
+  border: $secondary solid 1px;
+  color: $secondary;
+ }
+ //Hero//
+
+ .background-form1 {
   background-color: $primary; 
   border-radius: 80px 0 0 80px;
   top: 65%;
@@ -43,23 +66,18 @@ $accordion-icon-color: $primary;
   z-index: -1;
  }
 
- .nav-link:active {
-  color:#FA5959;
+ .btn-hero-primary:hover {
+ border: 1px solid $primary;
+ background-color: #fff;
+ color: $primary;
  }
 
- .navbar-toggler {
-  border: none;
- }
+ .btn-hero-secondary:hover {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  }
 
- .btn-menu:hover {
-  color: #333!important;
- }
-
- .btn-secondary:hover {
-  background-color: white;
-  border: $secondary solid 1px;
-  color: $secondary;
- }
 
  //Features//
 
@@ -111,20 +129,27 @@ $accordion-icon-color: $primary;
   height: 400px;
  }
 
- .linea {
-  border-top: 5px dotted $gray;
-}
-
 .card-img-top {
   height: 100px;
   width: 100px;
 }
 
 //FAQs//
-
+.btn-form:hover {
+  color: $secondary!important;
+}
 
 //FOOTER//
-.letter-spacing {
-  letter-spacing: 5px;
+.navbar-nav .nav-link:hover {
+  color: $secondary!important;
 }
+
+.nav-link:hover img {
+  fill: red; /* Cambia el color a rojo */
+}
+
+.letter-spacing {
+  letter-spacing: 4px;
+}
+
 
