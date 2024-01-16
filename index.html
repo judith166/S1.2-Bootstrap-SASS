@@ -12,7 +12,7 @@
 
 <body>
   <!--section Navbar-->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg m-3">
 
     <div class="container ">
 
@@ -24,18 +24,18 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
 
-        <ul class="navbar-nav ms-auto p-2">
-          <li class="nav-item">
-            <a class="nav-link" href="#">FEATURES</a>
+        <ul class="navbar-nav ms-auto pe-3">
+          <li class="nav-item pe-3">
+            <a class="nav-link fw-semibold" href="#">FEATURES</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PRICING</a>
+          <li class="nav-item pe-3">
+            <a class="nav-link fw-semibold" href="#">PRICING</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
+          <li class="nav-item pe-3">
+            <a class="nav-link fw-semibold" href="#">CONTACT</a>
           </li>
         </ul>
-        <button type="button" class="btn btn-secondary fw-semibold text-white btn-menu">LOGIN</button>
+        <button type="button" class="btn btn-sm btn-secondary fw-semibold text-white btn-menu px-4 shadow">LOGIN</button>
 
       </div>
 
@@ -47,7 +47,7 @@
 
   <section class="container-fluid">
 
-    <div class="row align-items-center mt-5">
+    <div class="row align-items-center mt-5 px-3">
 
       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-4 ps-5 order-2 order-md-1">
         <h1 class="fw-bold fs-1 text-md-start text-center">A Simple Bookmark Manager</h1>
@@ -69,12 +69,12 @@
   </section>
 
   <!-- Section Feacture-->
-
+  <div class="separador"></div>
   <section class="container-fluid">
 
     <div class="row text-center align-items-center justify-content-center mt-5">
       <div class="col-lg-6 col-md-6 text-justify feature">
-        <h2>Features</h2>
+        <h2 class="fw-bold">Features</h2>
         <p class="mt-3 mx-3 text-black-50 fw-normal fs-6">
           Our aim is to make it quick and easy for you to access your favorite websites. Your bookmarks sync between
           your devices so you can access them on the go.
@@ -82,36 +82,36 @@
       </div>
     </div>
 
-    <div class="row m-5">
-      <nav class="d-flex justify-content-center mt-3">
+    <div class="row mx-5 mt-3">
+      <nav class="d-flex justify-content-center mt-2">
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <!--LinkTab1-->
-          <button class="nav-link nav-feature active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-1"
+          <button class="nav-link nav-feature active fw-semibold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-1"
             type="button" role="tab" aria-controls="nav-home" aria-selected="true">Simple Bookmarking</button>
           <!--LinkTab2-->
-          <button class="nav-link nav-feature" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-2"
+          <button class="nav-link nav-feature fw-semibold text-black-50" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-2"
             type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Speedy Searching</button>
           <!--LinkTab3-->
-          <button class="nav-link nav-feature" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-3"
+          <button class="nav-link nav-feature fw-semibold text-black-50" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-3"
             type="button" role="tab" aria-controls="nav-disabled" aria-selected="false">Easy Sharing</button>
         </div>
       </nav>
     </div>
 
 
-    <div class="tab-content  mx-5" id="nav-tabContent">
+    <div class="tab-content mx-5" id="nav-tabContent">
       <!--Tab1-->
       <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
 
-        <div class="row align-items-center">
+        <div class="row align-items-center py-5">
           <div class="col-ms-12 col-md-6 position-relative ">
             <div class="background-form2 position-absolute"></div>
             <img src="./img/illustration-features-tab-1.svg" class="img-fluid" alt="tab1" />
           </div>
-          <div class="col-ms-12 col-md-6 mt-sm-5 p-5">
-            <h1 class="text-md-start text-center fs-3 fw-bold mt-5">Bookmark in one click</h1>
-            <div class="col-md-6">
-              <p class="text-md-start text-center mt-3">
+          <div class="col-ms-12 col-md-6 mt-sm-5 p-5 text-center">
+            <h1 class="text-md-start text-center fs-3 fw-bold">Bookmark in one click</h1>
+            <div class="col-md-12">
+              <p class="text-md-start text-center mt-3 text-black-50">
                 Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control
                 over how you manage your favorite sites.
               </p>
@@ -126,7 +126,7 @@
       </div>
       <!--Tab2-->
       <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-        <div class="row align-items-center">
+        <div class="row align-items-center py-5">
           <div class="col-sm-12 col-md-12 col-lg-6">
             <img src="./img/illustration-features-tab-2.svg" class="img-fluid" alt="tab2" />
           </div>
@@ -149,13 +149,13 @@
       </div>
       <!--Tab3-->
       <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
-        <div class="row align-items-center">
+        <div class="row align-items-center py-5">
           <div class="col-sm-12 col-md-12 col-lg-6">
             <img src="./img/illustration-features-tab-3.svg" class="img-fluid" alt="tab3" />
           </div>
           <div class="col-sm-12 col-md-12 col-lg-6">
             <h1 class="text-md-start text-center mt-5">Easy Sharing</h1>
-            <div class="col-md-6">
+            <div class="col-md-12">
               <p class="text-md-start text-center mt-3 ">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa delectus natus nihil! In voluptatem
                 rem aperiam quibusdam commodi. Modi architecto ut dolorem ex numquam aspernatur dolore temporibus
@@ -175,11 +175,11 @@
   </section>
 
   <!-- Section Cards-->
-
-  <div class="row text-center align-items-center justify-content-center p-5 mt-5">
+  <div class="separador"></div>
+  <div class="row text-center align-items-center justify-content-center mb-5 ">
 
     <div class="col-lg-6 col-md-6 text-justify feature">
-      <h2>Download the extension</h2>
+      <h2 class="fw-bold">Download the extension</h2>
       <p class="mt-3 mx-3 text-black-50 fw-normal fs-6">
         We've got mote browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to
         prioritze.
@@ -188,32 +188,32 @@
 
   </div>
 
-  <div class="section-cards row g-2 d-flex justify-content-center ms-auto">
-    <div class="card col-sm-9 align-self-start text-center mx-3" style="width: 15rem"><!--Cards1-->
+  <div class="section-cards row g-2 d-flex justify-content-center ms-auto" style="min-height:350px;">
+    <div class="card col-sm-9 align-self-start text-center mx-3 my-2 shadow" style="width: 15rem"><!--Cards1-->
       <img src="./img/logo-chrome.svg" class="card-img-top m-3 mx-auto" alt="Chrome">
       <div class="card-body">
         <h5 class="card-title">Add to Chrome</h5>
         <p class="card-text text-black-50">Minimum version 62</p>
         <div class="linea"></div>
-        <a href="#" class="btn btn-primary mt-4">Add & Install Extension</a>
+        <a href="#" class="btn btn-primary mt-4 shadow">Add & Install Extension</a>
       </div>
     </div>
-    <div class="card col-sm-9 align-self-center text-center mx-3" style="width: 15rem"><!--Cards2-->
+    <div class="card col-sm-9 align-self-center text-center mx-3 my-2 shadow" style="width: 15rem"><!--Cards2-->
       <img src="./img/logo-firefox.svg" class="card-img-top my-3 mx-auto" alt="Firefox">
       <div class="card-body">
         <h5 class="card-title">Add to Chrome</h5>
         <p class="card-text text-black-50">Minimum version 55</p>
         <div class="linea"></div>
-        <a href="#" class="btn btn-primary mt-4">Add & Install Extension</a>
+        <a href="#" class="btn btn-primary mt-4 shadow">Add & Install Extension</a>
       </div>
     </div>
-    <div class="card col-sm-9 align-self-end text-center mx-3" style="width: 15rem"><!--Cards3-->
+    <div class="card col-sm-9 align-self-end text-center mx-3 my-2 shadow" style="width: 15rem"><!--Cards3-->
       <img src="./img/logo-opera.svg" class="card-img-top my-3 mx-auto" alt="Opera">
       <div class="card-body">
         <h5 class="card-title">Add to Chrome</h5>
         <p class="card-text text-black-50">Minimum version 46</p>
         <div class="linea"></div>
-        <a href="#" class="btn btn-primary mt-4">Add & Install Extension</a>
+        <a href="#" class="btn btn-primary mt-4 shadow">Add & Install Extension</a>
       </div>
     </div>
 
@@ -223,10 +223,10 @@
 
 
   <!--Section FAQ-->
-
-  <div class="row text-center align-items-center justify-content-center p-5 mt-5">
+  <div class="separador"></div>
+  <div class="row text-center align-items-center justify-content-center pt-5">
     <div class="col-lg-6 col-md-6 text-justify feature">
-      <h2>Frequently Asked Questions</h2>
+      <h2 class="fw-bold">Frequently Asked Questions</h2>
       <p class="mt-3 mx-3 text-black-50 fw-normal fs-6">
         Here are some of our FAQs. If you have any other questions you'd
         like answered please feel free to email us.
@@ -291,22 +291,24 @@
             eaque et provident.
           </div>
         </div>
-        <button class="btn btn-primary mt-5">More Info</button>
+        <button class="btn btn-primary mt-4 shadow">More Info</button>
       </div>
     </div>
   </div>
+  
   <!--Section Footer-->
-  <section class="container-fluid bg-primary mt-5">
+  <div class="separador"></div>
+  <div class="container-fluid bg-primary mt-5">
     <div class="col-lg-5 col-md-5 container-fluid py-5 formulario">
 
       <div class="row justify-content-center align-items-center text-center">
 
-        <p class="fs-6 text-white fw-lighter">35.000+ ALREADY JOINED</p>
+        <p class="fs-6 text-white fw-normal letter-spacing">35.000+ ALREADY JOINED</p>
         <h5 class="fs-3 text-white">Stay up-to-date with what <br> we`re doing</h5>
 
-        <form class="row needs-validation" novalidate>
+        <form class="row needs-validation align-items-center" novalidate>
 
-          <div class="col-lg-8 col-sm-12">
+          <div class="col-lg-8 col-12">
             <label for="emailId" class="form-label"></label>
             <input type="email" class="form-control" id="emailId" required>
             <span class="valid-feedback">
@@ -316,11 +318,11 @@
               Algo no va bien!
             </span>
           </div>
-
-          <div class="col-lg-4 col-sm-12 ">
-            <button type="submit" class="btn btn-secondary text-white mt-4 d-block">Contact Us</button>
+          
+          <div class="col-lg-4 col-12">
+            <button type="submit" class="btn btn-secondary text-white btn-block mt-4 px-3">Contact Us</button>
           </div>
-
+          
         </form>
 
       </div>
@@ -348,7 +350,39 @@
           })
       })()
     </script>
-  </section>
+  </div>
+
+  <footer class="row bg-footer-color p-3">
+    <div class="container-xl ">
+      <div class="row align-items-center justify-content-between">
+        <div class="col d-flex align-items-center ms-5">
+          <img src="./img/logo-bookmark copy.svg" alt="logo-bookmark" width="150" height="25">
+          <ul class="navbar-nav pe-3 d-flex flex-row align-items-center">
+            <li class="nav-item pe-3">
+              <a class="nav-link fw-semibold" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link fw-semibold" href="#">PRICING</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link fw-semibold" href="#">CONTACT</a>
+            </li>
+          </ul>
+          
+        </div>
+  
+        <div class="col d-flex align-items-center">
+          <img src="./img/icon-facebook.svg" alt="facebook">
+          <img src="./img/icon-twitter.svg" alt="twitter">
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+    
+  
 
 
   <!--Bootstrap JS-->

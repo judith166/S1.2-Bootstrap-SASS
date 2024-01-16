@@ -1,11 +1,13 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 $gray: #e6e5e5;
+$footer-color: #242946; 
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  "gray": $gray
+  "gray": $gray,
+  "footer-color": $footer-color,
 );
 
 
@@ -14,7 +16,7 @@ $theme-colors: (
 $nav-link-color: #333;
 $nav-link-padding-x: 2rem;
 $nav-link-hover-color: $secondary;
-$nav-tabs-link-active-color: $secondary;
+$nav-tabs-link-active-color: #333;
 $nav-tabs-link-active-border-color: $secondary;
 
 //FAQs//
@@ -22,9 +24,16 @@ $accordion-icon-color: $primary;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
+//General//
+
+.separador {
+  height: 50px;
+  width: 100%;
+}
+
 .background-form1 {
   background-color: $primary; 
-  border-radius: 500% 0 0 500%;
+  border-radius: 80px 0 0 80px;
   top: 65%;
   left: 100%;
   right: 0%;
@@ -61,6 +70,12 @@ $accordion-icon-color: $primary;
 .nav-feature , .nav-feature.active{
   border: none;
   border-bottom: 3px solid $secondary;
+  
+}
+
+.nav-link:hover {
+  border: none;
+  color: #FA5959;
 }
 
 .background-form2 {
@@ -70,7 +85,7 @@ $accordion-icon-color: $primary;
   width: 75%;
   height: 90%;
   background-color: $primary; 
-  border-radius: 0 500px 500px 0;
+  border-radius: 0 80px 80px 0;
   z-index: -1;
 }
 
@@ -87,6 +102,10 @@ $accordion-icon-color: $primary;
 }
 
  //Cards//
+
+ .card {
+  border: none;
+ }
 
  .contenedor-extension {
   height: 400px;
@@ -105,5 +124,7 @@ $accordion-icon-color: $primary;
 
 
 //FOOTER//
-
+.letter-spacing {
+  letter-spacing: 5px;
+}
 
