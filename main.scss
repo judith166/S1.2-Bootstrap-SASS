@@ -34,7 +34,7 @@ $accordion-button-active-bg: #fff;
 }
 
 
-
+//Menu//
  .nav-link:active {
   color:#FA5959;
  }
@@ -81,15 +81,10 @@ $accordion-button-active-bg: #fff;
 
  //Features//
 
- .nav-tabs{
+ .nav-tabs {
   border-bottom: 3px solid $gray;
  }
 
-.nav-feature , .nav-feature.active{
-  border: none;
-  border-bottom: 3px solid $secondary;
-  
-}
 
 .nav-link:hover {
   border: none;
