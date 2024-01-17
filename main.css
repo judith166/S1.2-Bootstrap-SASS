@@ -11600,6 +11600,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  overflow-x: hidden;
+  margin-bottom: 0;
+}
+
 .separador {
   height: 100px;
   width: 100%;
@@ -11645,6 +11650,16 @@ textarea.form-control-lg {
   border: 1px solid #333;
   background-color: #fff;
   color: #333;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:hover {
+  border: none;
+  color: #333;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: transparent;
 }
 
 .nav-tabs {
