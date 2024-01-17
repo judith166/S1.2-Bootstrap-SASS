@@ -11651,6 +11651,11 @@ textarea.form-control-lg {
   border-bottom: 3px solid #e6e5e5;
 }
 
+.nav-feature, .nav-feature.active {
+  border: none;
+  border-bottom: 3px solid #FA5959;
+}
+
 .nav-link:hover {
   border: none;
   color: #FA5959;
@@ -11694,10 +11699,6 @@ textarea.form-control-lg {
 
 .navbar-nav .nav-link:hover {
   color: #FA5959 !important;
-}
-
-.nav-link:hover img {
-  fill: red; /* Cambia el color a rojo */
 }
 
 .letter-spacing {

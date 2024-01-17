@@ -81,10 +81,15 @@ $accordion-button-active-bg: #fff;
 
  //Features//
 
- .nav-tabs {
+
+ .nav-tabs{
   border-bottom: 3px solid $gray;
  }
+.nav-feature , .nav-feature.active{
+  border: none;
+  border-bottom: 3px solid $secondary;
 
+}
 
 .nav-link:hover {
   border: none;
@@ -137,10 +142,6 @@ $accordion-button-active-bg: #fff;
 //FOOTER//
 .navbar-nav .nav-link:hover {
   color: $secondary!important;
-}
-
-.nav-link:hover img {
-  fill: red; /* Cambia el color a rojo */
 }
 
 .letter-spacing {
